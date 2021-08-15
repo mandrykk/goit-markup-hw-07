@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px solid $border-line;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}

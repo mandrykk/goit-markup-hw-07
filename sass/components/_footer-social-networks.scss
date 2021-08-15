@@ -1,0 +1,29 @@
+.footer-social-networks {
+  margin-left: 70px;
+}
+
+.footer-networks {
+  color: $white-text;
+  background-color: $footer-networks-color;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-text;
+  }
+}
+
+.social-networks__icons {
+  fill: $white-text;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    fill: $white-text;
+  }
+}

@@ -18,11 +18,34 @@
   }
 }
 
-.social-networks__icons {
-  fill: $white-text;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.social-networks {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__links:hover {
+    cursor: pointer;
+    background-color: $accent-color;
+  }
+
+  &__icons {
+    fill: $white-text;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   &:hover {
     fill: $white-text;
   }
